@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/logo.svg" class="nav_logo" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Browser
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ladings
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Accounts
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <button class="btn nav_btn rounded-circle bg-secondary" type="submit"><i class="fa-regular fa-bell"></i></button>
+                <div class="dropdown">
+                  <button class="btn nav_btn btn-dropdown dropdown-toggle" type="submit" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="assets/avatar-2.jpg" class="account-img rounded-circle" alt="user">
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- Jumbotron section -->
+    <div class="container-fluid color_bg">
+        <div class="container jumbotron">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 px-3">
+                    <h1 class="text-light">Welcome Web Students!</h1>
+                    <p class="jumbotron_text">Hand-picked instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
+                    <button type="button" class="btn btn-success">Browse Courses</button>
+                    <button type="button" class="btn btn-light">Are You Instructor?</button>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/hero-img.png" class="img-fluid" alt="hero">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Info Area -->
+    <div class="bg-light shadow">
+      <div class="container py-4">
+        <div class="row">
+          <div class="d-flex align-items-center col-md-4">
+            <button class="btn btn-warning border-0 rounded-circle p-3 mx-3"><i class="fa-solid fa-video"></i></button>
+            <div>
+              <h5 class="m-0">30,000 online courses</h5>
+              <p class="m-0">Enjoy a variety of fresh topics</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center col-md-4">
+            <button class="btn btn-warning border-0 rounded-circle p-3 mx-3"><i class="fa-solid fa-user-group"></i></button>
+            <div>
+              <h5 class="m-0">Expert instruction</h5>
+              <p class="m-0">Find the right instructor for you</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center col-md-4">
+            <button class="btn btn-warning border-0 rounded-circle p-3 mx-3"><i class="fa-regular fa-clock"></i></button>
+            <div>
+              <h5 class="m-0">Lifetime access</h5>
+              <p class="m-0">Learn on your schedule</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Recomanded Area -->
+    <div class="container-fluid mt-5">
+      <h3>Recomended to you</h3>
+      <div class="row mx-1 mt-3">
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-graphql.jpg" class="card-img-top" alt="GraphQI">
+          <div class="card-body">
+            <h6 class="card-title">GraphQL: introduction to graphQL for beginners</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 40m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+          </div>
+          <div class="card-body">
+            <span>€500</span>
+            <span class="text-body-tertiary"><del>€600</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-5.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Brooklyn Simmons</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-javascript.jpg" class="card-img-top" alt="Js">
+          <div class="card-body">
+            <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+          </div>
+          <div class="card-body">
+            <span>€700</span>
+            <span class="text-body-tertiary"><del>€850</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-5.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Jenny Wilson</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
+          <div class="card-body">
+            <h6 class="card-title">Beginninf Node, js, Express & MongoDB Development</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+          </div>
+          <div class="card-body">
+            <span>€800</span>
+            <span class="text-body-tertiary"><del>€950</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-3.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Sina Ray</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
+          <div class="card-body">
+            <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+          </div>
+          <div class="card-body">
+            <span>€170</span>
+            <span class="text-body-tertiary"><del>€220</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-7.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Sobo Rikhan</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Popular Area -->
+    <div class="container-fluid mt-5">
+      <h3>Most Popular</h3>
+      <div class="row mx-1 mt-3">
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-html.jpg" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+          </div>
+          <div class="card-body">
+            <span>€550</span>
+            <span class="text-body-tertiary"><del>€700</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-4.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Miston Wilson</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-javascript.jpg" class="card-img-top" alt="JS">
+          <div class="card-body">
+            <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+          </div>
+          <div class="card-body">
+            <span>€700</span>
+            <span class="text-body-tertiary"><del>€850</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-1.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Jenny Wilson</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
+          <div class="card-body">
+            <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+          </div>
+          <div class="card-body">
+            <span>€800</span>
+            <span class="text-body-tertiary"><del>€950</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-3.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Sina Ray</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-react.jpg" class="card-img-top" alt="React">
+          <div class="card-body">
+            <h6 class="card-title">How to easily create a website with React</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 55m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+          </div>
+          <div class="card-body">
+            <span>€600</span>
+            <span class="text-body-tertiary"><del>€750</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-1.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Micheal</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- trending Area -->
+    <div class="container-fluid mt-5">
+      <h3>Trending</h3>
+      <div class="row mx-1 mt-3">
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-gatsby.jpg" class="card-img-top" alt="Gatsby">
+          <div class="card-body">
+            <h6 class="card-title">Revolutionize how you build the web</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 46m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+          </div>
+          <div class="card-body">
+            <span>€800</span>
+            <span class="text-body-tertiary"><del>€850</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-5.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Jenny Wilson</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 col-6 p-0">
+          <img src="assets/course-html.jpg" class="card-img-top" alt="html">
+          <div class="card-body">
+            <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+          </div>
+          <div class="card-body">
+            <span>€550</span>
+            <span class="text-body-tertiary"><del>€700</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-4.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Miston Wilson</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
+          <div class="card-body">
+            <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+          </div>
+          <div class="card-body">
+            <span>€800</span>
+            <span class="text-body-tertiary"><del>€950</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-3.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Sina Ray</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+        <div class="card col-md-2 d-sm-none d-md-block p-0">
+          <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
+          <div class="card-body">
+            <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+          </div>
+          <div class="card-body">
+            <span>€170</span>
+            <span class="text-body-tertiary"><del>€220</del></span>
+          </div>
+          <div class="card-body border-top d-flex justify-content-between">
+            <div>
+              <img src="assets/avatar-7.jpg" class="avatar-img rounded-circle" alt="user1">
+              <span>Sobo Rikhan</span>
+            </div>
+            <div>
+              <i class="fa-regular fa-bookmark"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Area -->
+    <footer class="d-flex justify-content-md-around py-3 border-top mt-3 flex-column flex-md-row align-items-center ">
+      <div>@ 2022 Geeks. All Rights Reserved.</div>
+      <div>
+        <span class="mx-2">Privacy</span>
+        <span class="mx-2">Terms</span>
+        <span class="mx-2">Feedback</span>
+        <span class="mx-2">Support</span>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2fc754e3d6.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
