@@ -66,16 +66,34 @@
                 <button class="btn nav_btn rounded-circle bg-secondary" type="submit"><i class="fa-regular fa-bell"></i></button>
                 <div class="dropdown">
                   <button class="btn nav_btn btn-dropdown dropdown-toggle" type="submit" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="assets/avatar-2.jpg" class="account-img rounded-circle" alt="user">
+                    <img src="assets/avatar-1.jpg" class="account-img rounded-circle" alt="user">
                   </button>
                   <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item d-flex align-items-center" href="#">
+                      <img src="assets/avatar-1.jpg" class="account-img rounded-circle m-1" alt="user">
+                      <div>
+                        <h6 class="m-0">Myke Simmons</h6>
+                        <p class="m-0">mike@java.com</p>
+                      </div>
+                    </a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-user"></i>
+                      <span class="mx-2">Profile</span>
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-star"></i>
+                      <span class="mx-2">Subscription</span>
+                    </a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-gear"></i>
+                      <span class="mx-2">Settings</span>
+                    </a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-power-off"></i>
+                      <span class="mx-2">Sign out</span>
+                    </a></li>
                   </ul>
                 </div>
             </form>
@@ -130,7 +148,7 @@
     <div class="container-fluid mt-5">
       <h3>Recomended to you</h3>
       <div class="row mx-1 mt-3">
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 p-0">
           <img src="assets/course-graphql.jpg" class="card-img-top" alt="GraphQI">
           <div class="card-body">
             <h6 class="card-title">GraphQL: introduction to graphQL for beginners</h6>
@@ -150,7 +168,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 offset-1 p-0">
           <img src="assets/course-javascript.jpg" class="card-img-top" alt="Js">
           <div class="card-body">
             <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
@@ -170,7 +188,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginninf Node, js, Express & MongoDB Development</h6>
@@ -190,7 +208,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
           <div class="card-body">
             <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
@@ -216,7 +234,7 @@
     <div class="container-fluid mt-5">
       <h3>Most Popular</h3>
       <div class="row mx-1 mt-3">
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 p-0">
           <img src="assets/course-html.jpg" class="card-img-top" alt="html">
           <div class="card-body">
             <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
@@ -236,7 +254,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 offset-1 p-0">
           <img src="assets/course-javascript.jpg" class="card-img-top" alt="JS">
           <div class="card-body">
             <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
@@ -256,7 +274,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
@@ -276,7 +294,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-react.jpg" class="card-img-top" alt="React">
           <div class="card-body">
             <h6 class="card-title">How to easily create a website with React</h6>
@@ -302,7 +320,7 @@
     <div class="container-fluid mt-5">
       <h3>Trending</h3>
       <div class="row mx-1 mt-3">
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 p-0">
           <img src="assets/course-gatsby.jpg" class="card-img-top" alt="Gatsby">
           <div class="card-body">
             <h6 class="card-title">Revolutionize how you build the web</h6>
@@ -322,7 +340,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 col-6 p-0">
+        <div class="card col-md-2 col-5 offset-1 p-0">
           <img src="assets/course-html.jpg" class="card-img-top" alt="html">
           <div class="card-body">
             <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
@@ -342,7 +360,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
@@ -362,7 +380,7 @@
             </div>
           </div>
         </div>
-        <div class="card col-md-2 d-sm-none d-md-block p-0">
+        <div class="card col-md-2 offset-md-1 d-none d-md-block p-0">
           <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
           <div class="card-body">
             <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
