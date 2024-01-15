@@ -62,42 +62,42 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-                <button class="btn nav_btn rounded-circle bg-secondary" type="submit"><i class="fa-regular fa-bell"></i></button>
-                <div class="dropdown">
-                  <button class="btn nav_btn btn-dropdown dropdown-toggle" type="submit" data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="assets/avatar-1.jpg" class="account-img rounded-circle" alt="user">
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item d-flex align-items-center" href="#">
-                      <img src="assets/avatar-1.jpg" class="account-img rounded-circle m-1" alt="user">
-                      <div>
-                        <h6 class="m-0">Myke Simmons</h6>
-                        <p class="m-0">mike@java.com</p>
-                      </div>
-                    </a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-user"></i>
-                      <span class="mx-2">Profile</span>
-                    </a></li>
-                    <li><a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-star"></i>
-                      <span class="mx-2">Subscription</span>
-                    </a></li>
-                    <li><a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-gear"></i>
-                      <span class="mx-2">Settings</span>
-                    </a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">
-                      <i class="fa-solid fa-power-off"></i>
-                      <span class="mx-2">Sign out</span>
-                    </a></li>
-                  </ul>
-                </div>
-            </form>
           </div>
+          <form class="d-flex position-absolute top-0 end-0 pt-1 pe-5 pe-md-0" role="search">
+              <button class="btn nav_btn rounded-circle bg-secondary" type="submit"><i class="fa-regular fa-bell"></i></button>
+              <div class="dropdown">
+                <button class="btn nav_btn btn-dropdown dropdown-toggle" type="submit" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="assets/avatar-1.jpg" class="account-img rounded-circle" alt="user">
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item d-flex align-items-center" href="#">
+                    <img src="assets/avatar-1.jpg" class="account-img rounded-circle m-1" alt="user">
+                    <div>
+                      <h6 class="m-0">Myke Simmons</h6>
+                      <p class="m-0">mike@java.com</p>
+                    </div>
+                  </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="mx-2">Profile</span>
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-star"></i>
+                    <span class="mx-2">Subscription</span>
+                  </a></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="mx-2">Settings</span>
+                  </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fa-solid fa-power-off"></i>
+                    <span class="mx-2">Sign out</span>
+                  </a></li>
+                </ul>
+              </div>
+          </form>
         </div>
     </nav>
     <!-- Jumbotron section -->
@@ -152,11 +152,20 @@
           <img src="assets/course-graphql.jpg" class="card-img-top" alt="GraphQI">
           <div class="card-body">
             <h6 class="card-title">GraphQL: introduction to graphQL for beginners</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 40m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+            <p class="card-text">
+              <span class="pe-3"><i class="fa-regular fa-clock"></i>2h 40m</span>
+              <span><i class="fa-solid fa-signal"></i>Advance</span></p>
           </div>
           <div class="card-body">
-            <span>€500</span>
-            <span class="text-body-tertiary"><del>€600</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">2.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€500</span>
+              <span class="text-body-tertiary"><del>€600</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -172,11 +181,18 @@
           <img src="assets/course-javascript.jpg" class="card-img-top" alt="Js">
           <div class="card-body">
             <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
           </div>
           <div class="card-body">
-            <span>€700</span>
-            <span class="text-body-tertiary"><del>€850</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">3.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€700</span>
+              <span class="text-body-tertiary"><del>€850</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -192,11 +208,18 @@
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginninf Node, js, Express & MongoDB Development</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
           </div>
           <div class="card-body">
-            <span>€800</span>
-            <span class="text-body-tertiary"><del>€950</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">4</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€800</span>
+              <span class="text-body-tertiary"><del>€950</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -212,11 +235,18 @@
           <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
           <div class="card-body">
             <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
           </div>
           <div class="card-body">
-            <span>€170</span>
-            <span class="text-body-tertiary"><del>€220</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              <span class="yellow">4.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€170</span>
+              <span class="text-body-tertiary"><del>€220</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -238,11 +268,18 @@
           <img src="assets/course-html.jpg" class="card-img-top" alt="html">
           <div class="card-body">
             <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
           </div>
           <div class="card-body">
-            <span>€550</span>
-            <span class="text-body-tertiary"><del>€700</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">3</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€550</span>
+              <span class="text-body-tertiary"><del>€700</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -258,11 +295,18 @@
           <img src="assets/course-javascript.jpg" class="card-img-top" alt="JS">
           <div class="card-body">
             <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>4h 10m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
           </div>
           <div class="card-body">
-            <span>€700</span>
-            <span class="text-body-tertiary"><del>€850</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">3.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€700</span>
+              <span class="text-body-tertiary"><del>€850</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -278,11 +322,18 @@
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
           </div>
           <div class="card-body">
-            <span>€800</span>
-            <span class="text-body-tertiary"><del>€950</del></span>
+            <div>
+              <div class="pb-4">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+                <span class="yellow">4</span>
+                <span>(1500)</span>
+              </div>
+              <span class="price">€800</span>
+              <span class="text-body-tertiary"><del>€950</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -298,11 +349,18 @@
           <img src="assets/course-react.jpg" class="card-img-top" alt="React">
           <div class="card-body">
             <h6 class="card-title">How to easily create a website with React</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 55m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>3h 55m</span><span><i class="fa-solid fa-signal"></i>Advance</span></p>
           </div>
           <div class="card-body">
-            <span>€600</span>
-            <span class="text-body-tertiary"><del>€750</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              <span class="yellow">4.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€600</span>
+              <span class="text-body-tertiary"><del>€750</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -324,11 +382,18 @@
           <img src="assets/course-gatsby.jpg" class="card-img-top" alt="Gatsby">
           <div class="card-body">
             <h6 class="card-title">Revolutionize how you build the web</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 46m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>1h 46m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
           </div>
           <div class="card-body">
-            <span>€800</span>
-            <span class="text-body-tertiary"><del>€850</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">2</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€800</span>
+              <span class="text-body-tertiary"><del>€850</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -344,11 +409,18 @@
           <img src="assets/course-html.jpg" class="card-img-top" alt="html">
           <div class="card-body">
             <h6 class="card-title">HTML Full Course - Build a Website Tutorial</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>3h 16m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
           </div>
           <div class="card-body">
-            <span>€550</span>
-            <span class="text-body-tertiary"><del>€700</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">3</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€550</span>
+              <span class="text-body-tertiary"><del>€700</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -364,11 +436,18 @@
           <img src="assets/course-node.jpg" class="card-img-top" alt="NodeJS">
           <div class="card-body">
             <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>2h 00m</span><span><i class="fa-solid fa-signal"></i>Intermediate</span></p>
           </div>
           <div class="card-body">
-            <span>€800</span>
-            <span class="text-body-tertiary"><del>€950</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+              <span class="yellow">4</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€800</span>
+              <span class="text-body-tertiary"><del>€950</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -384,11 +463,18 @@
           <img src="assets/course-laravel.jpg" class="card-img-top" alt="Laravel">
           <div class="card-body">
             <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
-            <p class="card-text"><span><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
+            <p class="card-text"><span class="pe-3"><i class="fa-regular fa-clock"></i>1h 00m</span><span><i class="fa-solid fa-signal"></i>Beginner</span></p>
           </div>
           <div class="card-body">
-            <span>€170</span>
-            <span class="text-body-tertiary"><del>€220</del></span>
+            <div class="pb-4">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
+              <span class="yellow">4.5</span>
+              <span>(1500)</span>
+            </div>
+            <div>
+              <span class="price">€170</span>
+              <span class="text-body-tertiary"><del>€220</del></span>
+            </div>
           </div>
           <div class="card-body border-top d-flex justify-content-between">
             <div>
@@ -415,5 +501,6 @@
 
     <script src="https://kit.fontawesome.com/2fc754e3d6.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

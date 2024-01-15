@@ -32,9 +32,16 @@ button.nav_btn {
     color: #BBA6FF;
 }
 
-/* Recomanded Area */
+/* Card Area */
 img.avatar-img {
     width: 30px;
+}
+
+.fa-star, .fa-star-half-stroke, .yellow {
+    color: #FFAA46;
+}
+.price {
+    font-weight: bold;
 }
 /* Footer area */
 footer {
@@ -42,9 +49,13 @@ footer {
 }
 
 /* Secondo esercizio settimanale */
-.fa-bookmark:hover {
-    background-color: black;
+.fa-solid.fa-bookmark {
+    color: #C8C5D3;
 }
+.fa-regular.fa-bookmark {
+    color: #C8C5D3;
+}
+
 .card:hover {
     transform: scale(1.1);
     transition: transform 0.5s linear 0.2s;
